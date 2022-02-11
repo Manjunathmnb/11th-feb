@@ -1,0 +1,25 @@
+sno=int(input())
+sname=input()
+group=input()
+S1=int(input())
+S2=int(input())
+S3=int(input())
+S4=int(input())
+S5=int(input())
+S6=int(input())
+total=S1+S2+S3+S4+S5+S6
+average=(total)/6
+if average<35:
+    print ('fail')
+elif average>=91:
+    print('O grade')
+elif average>=81:
+    print('A grade')
+elif average>=71:
+    print('B grade')
+elif average>=61:
+    print('C grade')
+elif average>=51:
+    print('D grade')
+else:
+    print("pass") 
